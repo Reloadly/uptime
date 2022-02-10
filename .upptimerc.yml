@@ -5,6 +5,30 @@ repo: uptime # The name of this repository
 sites:
   - name: Reloadly Developer Portal
     url: https://www.reloadly.com
+  - name: Authorization Service
+    url: https://auth.reloadly.com
+    expectedStatusCodes:
+      - 401
+  - name: Topups Service
+    url: https://topups.reloadly.com
+    expectedStatusCodes:
+      - 401   
+  - name: Topups Sandbox Service
+    url: https://topups-sandbox.reloadly.com
+    expectedStatusCodes:
+      - 401       
+  - name: Giftcards Service
+    url: https://giftcards.reloadly.com
+    expectedStatusCodes:
+      - 401
+  - name: Giftcards Sandbox Service
+    url: https://giftcards-sandbox.reloadly.com
+    expectedStatusCodes:
+      - 401      
+  - name: Portal Service
+    url: https://portal2.reloadly.com
+    expectedStatusCodes:
+      - 401          
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -13,8 +37,8 @@ status-website:
   baseUrl: /uptime
   logoUrl: https://cdn.reloadly.com/assets-v2/images/logo.svg
   name: Reloadly Status Web
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: Reloadly Status Web
+  # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
