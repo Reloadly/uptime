@@ -1,7 +1,7 @@
 url: https://topups-sandbox.reloadly.com
-status: down
-code: 502
-responseTime: 116
-lastUpdated: 2022-04-28T14:54:59.305Z
+status: up
+code: 401
+responseTime: 333
+lastUpdated: 2022-04-28T15:00:03.336Z
 startTime: Thu Feb 10 2022 11:34:31 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
